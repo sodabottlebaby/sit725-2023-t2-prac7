@@ -2,13 +2,13 @@ const cardList = [
     {
         title: "Kitten 2",
         image: "bananacat.gif",
-        link: "About Kitten 2",
+        link: "Me when SQL",
         description: "Demo desciption about kitten 2"
     },
     {
         title: "Kitten 3",
         image: "happycat.gif",
-        link: "About Kitten 3",
+        link: "Me when web dev",
         description: "Demo desciption about kitten 3"
     }
 ]
