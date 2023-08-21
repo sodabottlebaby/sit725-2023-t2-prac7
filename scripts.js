@@ -40,7 +40,7 @@ function postCat(cat) {
 }
 
 function getAllCats(){
-    $.get('/api/cats', (response)=>{
+    $.get('/api/cat', (response)=>{
         //response's data is in array format
         if (response.statusCode === 200) {
             console.log(response.data)
