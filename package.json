@@ -1,16 +1,24 @@
 {
   "dependencies": {
     "allow-methods": "^5.0.2",
+    "chai": "^4.3.8",
+    "chai-http": "^4.4.0",
     "cors": "^2.8.5",
     "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "mocha": "^10.2.0",
     "mongodb": "^4.4.1",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2",
+    "should-http": "^0.1.1",
+    "socket.io": "^4.7.2"
   },
-  "name": "sit725-2023-t1-prac2",
+  "name": "sit725-2023-t2-prac7",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec",
+    "start": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",

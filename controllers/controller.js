@@ -17,4 +17,13 @@ const getAllCats = (req,res) => {
     });
 }
 
+const deleteCat = (req,res) => {
+    let cat = req.body;
+    collection.deleteOne(cat, (err, result) => {
+        if (!err) {
+            res.json({statusCode: 200, data:result, message:'delete cat successful'});
+        }  
+    });
+}
+
 module.exports = {postCat,getAllCats} 
